@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36119.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotasAPI", "RotasAPI\RotasAPI.csproj", "{0470F3FD-C849-42A5-B0A9-D24C9EAE562C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rotas.Repository", "Rotas.Repository\Rotas.Repository.csproj", "{1AD14C0E-C368-43D6-977B-51A52A782403}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rotas.Service", "Rotas.Service\Rotas.Service.csproj", "{E531161B-C056-4BA0-B45F-DD4DF8D1EA59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rotas.Domain", "Rotas.Domain\Rotas.Domain.csproj", "{EB2A51BB-F2E3-49CF-87F9-0E4016F83CFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rotas.Teste", "Rotas.Teste\Rotas.Teste.csproj", "{064927F9-B40A-4457-A343-5C041094C1A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{380A7511-A354-6D7A-0CC0-8FA1F1BA7B6C}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		script_bd.sql = script_bd.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0470F3FD-C849-42A5-B0A9-D24C9EAE562C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0470F3FD-C849-42A5-B0A9-D24C9EAE562C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0470F3FD-C849-42A5-B0A9-D24C9EAE562C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0470F3FD-C849-42A5-B0A9-D24C9EAE562C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AD14C0E-C368-43D6-977B-51A52A782403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AD14C0E-C368-43D6-977B-51A52A782403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AD14C0E-C368-43D6-977B-51A52A782403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AD14C0E-C368-43D6-977B-51A52A782403}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E531161B-C056-4BA0-B45F-DD4DF8D1EA59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E531161B-C056-4BA0-B45F-DD4DF8D1EA59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E531161B-C056-4BA0-B45F-DD4DF8D1EA59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E531161B-C056-4BA0-B45F-DD4DF8D1EA59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB2A51BB-F2E3-49CF-87F9-0E4016F83CFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB2A51BB-F2E3-49CF-87F9-0E4016F83CFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB2A51BB-F2E3-49CF-87F9-0E4016F83CFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB2A51BB-F2E3-49CF-87F9-0E4016F83CFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{064927F9-B40A-4457-A343-5C041094C1A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{064927F9-B40A-4457-A343-5C041094C1A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{064927F9-B40A-4457-A343-5C041094C1A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{064927F9-B40A-4457-A343-5C041094C1A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC128808-B70E-4C60-83FB-E015928FD656}
+	EndGlobalSection
+EndGlobal
